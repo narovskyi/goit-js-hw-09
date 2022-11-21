@@ -14,7 +14,7 @@ function onStartBtnClick() {
     disableBtn(refs.startBtn);
     enableBtn(refs.stopBtn);
     intervalId = setInterval(changeBackgroundColor, 1000, refs.body);
-}~
+}
 
 function onStopBtnClick() {
     disableBtn(refs.stopBtn);
